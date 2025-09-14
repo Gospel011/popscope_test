@@ -35,7 +35,7 @@ class _SecondPageState extends State<SecondPage> {
         if (context.mounted && [null, false].contains(timer?.isActive)) {
           ScaffoldMessenger.of(context).showSnackBar(
             SnackBar(
-              content: Text("Click back button again to go back"),
+              content: Text("Make that gesture again to go back"),
               duration: Duration(milliseconds: 800),
             ),
           );
